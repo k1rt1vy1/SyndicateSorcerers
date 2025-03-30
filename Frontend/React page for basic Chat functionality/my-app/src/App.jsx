@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import ChatApp from './component/chatapp'
+// import ChatApp from './component/chatapp'
+import Chatbot from './component/Chatbot/Chatbot'
 import './App.css'
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
 
   return (
     <>
-      <ChatApp></ChatApp>
+      <Chatbot></Chatbot>
     </>
   )
 }
